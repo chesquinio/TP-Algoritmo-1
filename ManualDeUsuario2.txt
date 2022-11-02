@@ -1,0 +1,63 @@
+PROGRAMA
+
+El mismo basa en una simulación de un software de un cajero automático de supermercado, aparatos creados para que las personas puedan marcar y pagar autónomamente los productos que haya seleccionado anteriormente en la compra.
+Nuestro programa tiene varios defectos, ya que, por ejemplo, no se programó un aparato físico que pueda ser capas de escanear los códigos de barras, o también, la falta de botones en la consola que se ejecuta el programa también hacen de este programa algo más diferente, y a su contraparte el usuario deberá escribir en vez escanear o tocar un botón.
+Explicado este, a continuación se mostrará como está conformado este software. 
+
+
+MANUAL DE USUARIO
+
+Menú Principal
+
+[REALIZAR COMPRA]
+[LISTA DE PRODUCTOS]
+[ÚLTIMA OPERACIÓN]
+[SALIR]
+     
+ 
+Este menú se muestra al iniciar el programa, y son las funciones principales a ejecutar, en donde encontraremos la última operación realizada, ver la lista de los productos a la venta, la función de realizar la compra o simplemente salir de la ejecución del programa. Este menú se mostrara infinitamente cada vez que se haya terminado de ejecutar alguna de las tres primeras funciones, y solamente terminara cuando el usuario escriba salir.
+
+[ÚLTIMA OPERACIÓN]
+
+Esta función nos mostrará los productos seleccionados de la última compra, el dinero gastado en tal compra y el número de tarjeta utilizada.
+Si no hemos hecho una compra previa después de la ejecución del programa, solo se mostrara el dato "x", ya que no hay valores definidos aun.
+
+[LISTA DE PRODUCTOS]
+
+Al escribir esto, el programa nos mostrará la lista de los productos que el software de la tienda vende, para no tener que entrar al proceso de compra y tener que cargar nuestros datos para recién ver los productos y sus precios.
+
+[REALIZAR COMPRA]
+
+Primero, el usuario ingresa su nombre, para poder empezar la operación de compra
+El usuario tendrá que ingresar su número de tarjeta de crédito, pero si ingresa un número de tarjeta incorrecto o que presenta caracteres que el programa no entiende, se le pedirá que corrija el número.
+Una vez el programa la haya aceptado, el usuario nuevamente tendrá que ingresar el código de seguridad de la tarjeta, con los mismos métodos de autenticación anteriores.
+Posterior a esto, como método de seguridad del cajero, se le pedirá que escriba un monto de dinero que se ingresara al cajero antes de realizar la compra, aunque después tenga que reingresar dinero por faltante del mismo.
+Se imprime el catálogo de productos con sus respectivos precios que la tienda dispone, y automáticamente de le dirá al usuario que escriba lo que desea llevar, y una vez terminado de elegir, solo tiene que escribir "terminar".
+Ahora llega la parte donde se le informara al usuario el dinero que representa la compra y el dinero que él dispone, que dependiendo de si es mayor o menor a lo gastado se le mostraran diferentes menús.
+
+Opción 1: Dinero gastado es menor al dinero disponible
+
+[PAGAR]
+Esta opción hará que se concrete el proceso de compra
+
+[CANCELAR COMPRA]
+Esta opción cancelará inmediatamente la compra
+
+Opción 2: Dinero gastado mayor al dinero disponible
+En este menú se le mostrará 3 opciones diferentes
+
+[REINTEGRAR EFECTIVO]
+Cuando el usuario escriba esta opción, tendrá que ir ingresando continuamente efectivo hasta que el dinero que disponga sea mayor o igual a lo gastado, para después poder pagar normalmente
+
+[REMOVER]
+Al escribir esta función, el usuario deberá ir escribiendo uno por uno los elementos que desea remover de su lista de compra, y solo una vez que el monto del dinero gastado sea menor al disponible, el proceso de remover se detendrá, para después informarle de su situación y que pueda pagar normalmente, o cancelar toda la compra si así lo desea
+
+[CANCELAR COMPRA]
+Termina con todo el proceso de la compra
+
+
+
+INTEGRANTES
+
+Francis Willener
+Maximo Krawiec
